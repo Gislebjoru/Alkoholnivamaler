@@ -37,7 +37,7 @@ public class MaleActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Intent finalIntent = new Intent(MaleActivity.this, FinalActivity.class);
-
+                //test for github
                 //EditText verdier
                 EditText maleVekt = (EditText) findViewById(R.id.maleVekt);
                 String maleVektString = maleVekt.getText().toString();
